@@ -1,7 +1,6 @@
 # Help4All
 
-This website is an open source project and is an entry for **[Theta Hacks](https://thetahacks.tech/)**
-
+This website is an open source project and is an entry for **[Theta Hacks](https://thetahacks.tech/)**  
 You can get information about my team **[here](https://help4all.herokuapp.com/team)**
 
 
@@ -26,23 +25,13 @@ We with our website wish to reach out as much people as possible.We wish users t
      Name
      Phone number
      item 
-     quantity of item they want to donate
+     quantity of item they want to donate or other details
      address
-     State / UT in which you are living
-     transportation facility requirements.
 
-  Based on your State / UT, our form processor will get the list of the NGOs which operate in those regions. These NGOs can be listed from the offices where they are registered, or they can themselves register on this website. For their registration, they would have to submit information like Name of organisation, Email address & states in which they operate. Their authenticity will be ensured by an OTP system and a survey.
+  Our form processor will get the list of the NGOs registered on our platform. These NGOs can be listed from the offices where they are registered, or they can themselves register on this website. For their registration, they would have to submit information like Name of organisation, Email address & areas in which they operate (their head offices. Their authenticity will be ensured by an OTP system and a survey.
 
   When the donors send a donation request, these NGOs will be notified by that email with which they are registered on this website and can access all the information provided by the donor, including contact details, and can talk to them about the necessary arrangements required. After the donor has finalized the NGO to be helped, the donation status of the product you are donating turns from "Pending" to "Approved" so that other NGOs who are looking forward to contact can be informed the status of donation. 
 
 We have created a fine looking and simple user interface so as not to overcomplicate things for the user.
 
 For security purposes, all orders are logged so that if there is any misleading information provided, like wrong phone/address/etc. are given to blame another person, then appropriate actions can be taken.
-
-
-
-# Additional Notes
-
-The email given anywhere in the website can be used by you to inform Nalin, the team leader about anything related to this project.
-
-Do not call on the number because it is just numbers 0-9 in descending order!
