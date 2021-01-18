@@ -2,7 +2,7 @@
 
 This website is an open source project and is an entry for **[Theta Hacks](https://thetahacks.tech/)**
 
-You can get information about my team **[here](https://help4all.codewarriors1.repl.co/team)**
+You can get information about my team **[here](https://help4all.herokuapp.com/team)**
 
 
 # About
