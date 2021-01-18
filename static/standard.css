@@ -1,0 +1,208 @@
+button.blue{              /* Class for blue coloured buttons*/
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #2600ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(14, 0, 139);
+}
+
+button.blue:hover{
+    background-color: #2300bd
+}
+
+button.blue:active{
+    background-color: #2300bd;
+    box-shadow: 0 5px rgb(5, 0, 68);
+    transform: translateY(4px);
+}
+
+
+
+button.red{              /* Class for red coloured buttons*/
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(139, 0, 0);
+}
+
+button.red:hover{
+    background-color: #bd0000
+}
+
+button.red:active{
+    background-color: #bd0000;
+    box-shadow: 0 5px rgb(68, 0, 0);
+    transform: translateY(4px);
+}
+
+
+
+.header{            /* Standard configuration for all headers in the website*/
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-image: linear-gradient(to right, white, #209CEE, white);
+}
+
+.intro{             /* Standard configuration for intro(s)*/
+    text-align: justify;
+}
+
+p.fg{               /* basic requirement for foreground paragraphs */
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+a{                          /* -- link style -- */
+    color: mediumturquoise;
+}
+
+
+
+.rb-content{                    /*Content alignment classes*/   /* Right-Bottom */
+    padding-right: 25px;
+    text-align: right;
+    vertical-align: bottom;
+    bottom: 0;
+    right: 0;
+}
+
+.lb-content{                                /* Left-Bottom */
+    padding-left: 25px;
+    text-align: left;
+    vertical-align: bottom;
+    bottom: 0;
+    left: 0;
+}
+
+.rt-content{                                /* Right-Top */
+    padding-right: 25px;
+    text-align: right;
+    vertical-align: top;
+    top: 0;
+    right: 0;
+}
+
+.lt-content{                                /* Left-Top */
+    padding-left: 25px;
+    text-align: left;
+    vertical-align: top;
+    top: 0;
+    left: 0;
+}
+
+
+
+input[type=text]{                           /* Classes for textboxes Begin */
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+input[type=text]:focus{
+    border-radius: 5px;
+    border: 2px solid firebrick;
+}
+
+input[type=email]{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+input[type=email]:focus{
+    border-radius: 5px;
+    border: 2px solid firebrick;
+}
+
+input[type=number]{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+input[type=number]:focus{
+    border-radius: 5px;
+    border: 2px solid firebrick;
+}
+
+input[type=tel]{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+input[type=tel]:focus{
+    border-radius: 5px;
+    border: 2px solid firebrick;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+textarea:focus{
+    border-radius: 5px;
+    border: 2px solid firebrick;
+}                                           /* Classes for textboxes End */
+
+
+input[type=submit], input[type=button]{              /* Class for other form buttons*/
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(13, 92, 6);
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+    background-color: #3e8e41
+}
+
+input[type=submit]:active, input[type=button]:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(0, 68, 15);
+    transform: translateY(4px);
+}  
+
+
+                                                /*Classes related to the autocomplete suggestions*/
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
